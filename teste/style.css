@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffffff;
+}
+header{
+    display: flex;
+    flex-direction: row; 
+    align-items: flex-end;
+    justify-content: space-around;
+    text-decoration: none;
+    margin-top: 40px;
+}
+.verde{
+    color:#ffffff;
+    border: none;
+    background-color:#388E3B ;
+    border-radius: 15px;
+    width: 250px ;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.texto{
+    display: flex;
+    margin-top: 191px ;
+    margin-left: 56px;
+    flex-direction: column;
+}
+ h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #3b3737;
+}
+.texto p{
+    font-size: 30px;
+    margin-top: 30px;
+    color: #717171;
+}
+
+button{
+    border-radius: 15px ;
+    color: #ffffff;
+    background-color: #43A046;
+    width: 219px;
+    height: 64px;
+    margin-top: 40px;
+    border: none;
+    font-weight: 800;
+    font-style: normal;
+    margin-left: 56px;
+    font-size: 15px;
+}
+
+.container{
+    display: flex;
+    background-color:#F5F7FA;
+}
+
+.container img{
+    margin-top: 100px ;
+    margin-left: 146px;
+    width: 25%;
+
+}
+
+header div{
+    display: flex;
+}
+ header div h1{
+    margin-left: 10px;
+ }
+
+ h2{
+    margin-bottom: 10px;
+ }
+ 
+.texto1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto1 h1{
+    font-size: 40px;
+    color: #3b3737;
+    margin-top: 28px;
+}
+
+.texto1 p{
+    color: #717171;
+    font-size: 20px;
+
+}
+
+.logo img{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 22px;
+}
+
+.texto2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 28px;
+}
+
+.texto2 h1{
+    font-size: 40px;
+    color: #3b3737;
+    margin-top: 38px;
+}
+.texto2 p{
+    color: #717171;
+    font-size: 20px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
