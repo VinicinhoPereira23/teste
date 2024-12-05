@@ -200,3 +200,77 @@ header div{
     height:300px;
     margin-top: 52px;
 }
+
+.text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 191px ;
+    margin-left: 170px;
+}
+
+ .text.black{
+    font-weight: 500;
+    font-size: 60px;
+    color: #3b3737;
+}
+
+.text .green{
+    color: #28a745;
+    font-weight:900;
+    font-size: 40px;
+}
+
+.text p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #18191F;
+    margin-top: 4px;
+}
+
+.container2{
+    justify-content: space-between;
+    display: flex;
+}
+
+.stats-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Duas colunas */
+    gap: 30px; /* Espaçamento entre os itens */
+    text-align: left;
+    max-width: 600px;
+    padding: 20px;
+    margin-right: 250px;
+}
+
+  .stat-item {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Espaço entre o ícone e o texto */
+    margin-right: 48px;
+    margin-top: 21px;
+  }
+
+
+  .stat-item img {
+    width: 40px; /* Tamanho do ícone */
+    height: 40px;
+  }
+
+  .stat-text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .stat-number {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .stat-label {
+    font-size: 14px;
+    color: #666;
+  }
+
+
+
